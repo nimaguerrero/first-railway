@@ -35,7 +35,7 @@ class Conexion{
 }
 
 #################### Asi activamos la conexion
-// Conexion::conectar();
+Conexion::conectar();
 
 /* 
     try{
