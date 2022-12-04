@@ -21,7 +21,7 @@ class Conexion{
         try{
             $dcn = "mysql:host=".self::$db_servidor.";port=".self::$db_port.";dbname=".self::$db_nombre;
             $cn = new PDO($dcn,self::$db_usuario,self::$db_pass);
-            $cn->exec("SET CHARACTER SET".self::$db_charset);
+            // $cn->exec("SET CHARACTER SET".self::$db_charset);
             echo "Conectado perro";
             return $cn;
 
